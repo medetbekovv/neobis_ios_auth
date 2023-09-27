@@ -7,14 +7,14 @@
 
 import UIKit
 
-protocol LoginViewModelDelegate: AnyObject {
+protocol LoginViewModelProtocol {
     var isLoggedIn: Bool { get }
     var loginResult: ((Result<Data, Error>) ->Void)? { get set }
     
     func login(email: String, password: String)
 }
 
-class LoginViewModel: LoginViewModelDelegate {
+class LoginViewModel: LoginViewModelProtocol {
     var isLoggedIn: Bool = false
     var loginResult: ((Result<Data, Error>) -> Void)?
     
@@ -33,36 +33,16 @@ class LoginViewModel: LoginViewModelDelegate {
                 case .success(let data):
                     let decoder = JSONDecoder()
                     if let tokenResponse = try? decoder.decode(TokenObtainPair.self, from: data){
-                        
+                        AuthManager.shared.accessToken = tokenResponse.access
+                        self?.isLoggedIn = true
+                        self?.loginResult?(.success(data))
                     }
                 case .failure(let error):
-                    <#code#>
+                    print("Fail")
+                    self?.isLoggedIn = false
+                    self?.loginResult?(.failure(error))
                 }
-          
-//            case .success(let data):
-//                let dataString = String(data: data, encoding: .utf8)
-//                print("Data received: \(dataString ?? "nil")")
-//                let decoder = JSONDecoder()
-//                do {
-//                    let response = try decoder.decode(TokenObtainPair.self, from: data)
-//                    DispatchQueue.main.async {
-//                        self?.loginDelegate?.didLogin(user: response)
-//                    }
-//                } catch {
-//                    DispatchQueue.main.async {
-//                        self?.loginDelegate?.didFail(with: error)
-//                    }
-//                }
-//            case .failure(let error):
-//                DispatchQueue.main.async {
-//                    self?.loginDelegate?.didFail(with: error)
-//                }
             }
-
         }
     }
-    
-
-    
-    
 }
