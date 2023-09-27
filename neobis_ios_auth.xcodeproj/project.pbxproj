@@ -14,6 +14,13 @@
 		2F9552572AC4170400DEC7A5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9552562AC4170400DEC7A5 /* LoginViewModel.swift */; };
 		2F95525B2AC4176000DEC7A5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95525A2AC4176000DEC7A5 /* Model.swift */; };
 		2F95525E2AC4261B00DEC7A5 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95525D2AC4261B00DEC7A5 /* AuthManager.swift */; };
+		2F9552622AC4304200DEC7A5 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9552612AC4304200DEC7A5 /* SplashScreenView.swift */; };
+		2F9552642AC430D000DEC7A5 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9552632AC430D000DEC7A5 /* SplashViewController.swift */; };
+		2F9552662AC43BBF00DEC7A5 /* RegistrationScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9552652AC43BBF00DEC7A5 /* RegistrationScreenView.swift */; };
+		2F9552682AC43BFA00DEC7A5 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9552672AC43BFA00DEC7A5 /* RegistrationViewController.swift */; };
+		2F95526A2AC43C3500DEC7A5 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9552692AC43C3500DEC7A5 /* RegistrationViewModel.swift */; };
+		2F95526C2AC4409200DEC7A5 /* InfoScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95526B2AC4409200DEC7A5 /* InfoScreenView.swift */; };
+		2F95526E2AC440A500DEC7A5 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95526D2AC440A500DEC7A5 /* InfoViewController.swift */; };
 		CE16297A2A29F12400AD0362 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1629792A29F12400AD0362 /* AppDelegate.swift */; };
 		CE16297C2A29F12400AD0362 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16297B2A29F12400AD0362 /* SceneDelegate.swift */; };
 		CE16297E2A29F12400AD0362 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16297D2A29F12400AD0362 /* ViewController.swift */; };
@@ -43,6 +50,13 @@
 		2F9552562AC4170400DEC7A5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		2F95525A2AC4176000DEC7A5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		2F95525D2AC4261B00DEC7A5 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		2F9552612AC4304200DEC7A5 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		2F9552632AC430D000DEC7A5 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		2F9552652AC43BBF00DEC7A5 /* RegistrationScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreenView.swift; sourceTree = "<group>"; };
+		2F9552672AC43BFA00DEC7A5 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		2F9552692AC43C3500DEC7A5 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		2F95526B2AC4409200DEC7A5 /* InfoScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoScreenView.swift; sourceTree = "<group>"; };
+		2F95526D2AC440A500DEC7A5 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		768253897376BC17AD373BA2 /* Pods-neobis_ios_auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neobis_ios_auth.debug.xcconfig"; path = "Target Support Files/Pods-neobis_ios_auth/Pods-neobis_ios_auth.debug.xcconfig"; sourceTree = "<group>"; };
 		CE1629762A29F12400AD0362 /* neobis_ios_auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neobis_ios_auth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1629792A29F12400AD0362 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +143,8 @@
 		2F9552462AC4138700DEC7A5 /* InfoScreen */ = {
 			isa = PBXGroup;
 			children = (
+				2F95526B2AC4409200DEC7A5 /* InfoScreenView.swift */,
+				2F95526D2AC440A500DEC7A5 /* InfoViewController.swift */,
 			);
 			path = InfoScreen;
 			sourceTree = "<group>";
@@ -173,6 +189,9 @@
 		2F95524C2AC413DD00DEC7A5 /* RegistrationScreen */ = {
 			isa = PBXGroup;
 			children = (
+				2F9552672AC43BFA00DEC7A5 /* RegistrationViewController.swift */,
+				2F9552692AC43C3500DEC7A5 /* RegistrationViewModel.swift */,
+				2F9552652AC43BBF00DEC7A5 /* RegistrationScreenView.swift */,
 			);
 			path = RegistrationScreen;
 			sourceTree = "<group>";
@@ -180,6 +199,8 @@
 		2F95524D2AC413EE00DEC7A5 /* SplashScreen */ = {
 			isa = PBXGroup;
 			children = (
+				2F9552612AC4304200DEC7A5 /* SplashScreenView.swift */,
+				2F9552632AC430D000DEC7A5 /* SplashViewController.swift */,
 			);
 			path = SplashScreen;
 			sourceTree = "<group>";
@@ -390,17 +411,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F9552552AC416FB00DEC7A5 /* LoginViewController.swift in Sources */,
+				2F95526A2AC43C3500DEC7A5 /* RegistrationViewModel.swift in Sources */,
+				2F95526C2AC4409200DEC7A5 /* InfoScreenView.swift in Sources */,
+				2F9552622AC4304200DEC7A5 /* SplashScreenView.swift in Sources */,
 				2F95525E2AC4261B00DEC7A5 /* AuthManager.swift in Sources */,
 				CE1629912A29F1A300AD0362 /* BaseViewController.swift in Sources */,
 				CE16297E2A29F12400AD0362 /* ViewController.swift in Sources */,
+				2F9552642AC430D000DEC7A5 /* SplashViewController.swift in Sources */,
 				CE16297A2A29F12400AD0362 /* AppDelegate.swift in Sources */,
 				2F9552512AC414C500DEC7A5 /* TextField.swift in Sources */,
+				2F9552662AC43BBF00DEC7A5 /* RegistrationScreenView.swift in Sources */,
 				2F9552532AC414E500DEC7A5 /* LoginScreenView.swift in Sources */,
+				2F9552682AC43BFA00DEC7A5 /* RegistrationViewController.swift in Sources */,
 				CE16297C2A29F12400AD0362 /* SceneDelegate.swift in Sources */,
 				CE16298F2A29F18200AD0362 /* BaseView.swift in Sources */,
 				2F95525B2AC4176000DEC7A5 /* Model.swift in Sources */,
 				2F9552572AC4170400DEC7A5 /* LoginViewModel.swift in Sources */,
 				2F9552212AC412C700DEC7A5 /* Service.swift in Sources */,
+				2F95526E2AC440A500DEC7A5 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
