@@ -10,7 +10,6 @@ import SnapKit
 
 class RegistrationScreenView : BaseView {
     
-    
     lazy var smileImage : UIImageView = {
         let image = UIImageView()
         image.image = UIImage(named: "smile")

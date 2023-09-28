@@ -21,6 +21,7 @@
 		2F95526A2AC43C3500DEC7A5 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9552692AC43C3500DEC7A5 /* RegistrationViewModel.swift */; };
 		2F95526C2AC4409200DEC7A5 /* InfoScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95526B2AC4409200DEC7A5 /* InfoScreenView.swift */; };
 		2F95526E2AC440A500DEC7A5 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95526D2AC440A500DEC7A5 /* InfoViewController.swift */; };
+		2F9552702AC4428300DEC7A5 /* ResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95526F2AC4428300DEC7A5 /* ResetView.swift */; };
 		CE16297A2A29F12400AD0362 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1629792A29F12400AD0362 /* AppDelegate.swift */; };
 		CE16297C2A29F12400AD0362 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16297B2A29F12400AD0362 /* SceneDelegate.swift */; };
 		CE16297E2A29F12400AD0362 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16297D2A29F12400AD0362 /* ViewController.swift */; };
@@ -57,6 +58,7 @@
 		2F9552692AC43C3500DEC7A5 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		2F95526B2AC4409200DEC7A5 /* InfoScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoScreenView.swift; sourceTree = "<group>"; };
 		2F95526D2AC440A500DEC7A5 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		2F95526F2AC4428300DEC7A5 /* ResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetView.swift; sourceTree = "<group>"; };
 		768253897376BC17AD373BA2 /* Pods-neobis_ios_auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neobis_ios_auth.debug.xcconfig"; path = "Target Support Files/Pods-neobis_ios_auth/Pods-neobis_ios_auth.debug.xcconfig"; sourceTree = "<group>"; };
 		CE1629762A29F12400AD0362 /* neobis_ios_auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neobis_ios_auth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1629792A29F12400AD0362 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 		2F95524B2AC413D600DEC7A5 /* ResetPasswordScreen */ = {
 			isa = PBXGroup;
 			children = (
+				2F95526F2AC4428300DEC7A5 /* ResetView.swift */,
 			);
 			path = ResetPasswordScreen;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				2F9552512AC414C500DEC7A5 /* TextField.swift in Sources */,
 				2F9552662AC43BBF00DEC7A5 /* RegistrationScreenView.swift in Sources */,
 				2F9552532AC414E500DEC7A5 /* LoginScreenView.swift in Sources */,
+				2F9552702AC4428300DEC7A5 /* ResetView.swift in Sources */,
 				2F9552682AC43BFA00DEC7A5 /* RegistrationViewController.swift in Sources */,
 				CE16297C2A29F12400AD0362 /* SceneDelegate.swift in Sources */,
 				CE16298F2A29F18200AD0362 /* BaseView.swift in Sources */,
